@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+>
+
+	<LinearLayout
+		android:layout_height="0dp"
+		android:layout_width="match_parent"
+		android:layout_weight="1"
+	>
+
+		<EditText
+			android:id="@+id/editTextLink"
+			android:inputType="textUri"
+			android:layout_height="match_parent"
+			android:layout_width="275dp"
+			android:hint="Enter URL"
+		/>
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="125dp"
+			android:id="@+id/btnView"
+			android:text="Go"
+			android:background="#338bfc"
+			android:textColor="#ffffff"
+		/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="0dp"
+		android:layout_width="match_parent"
+		android:layout_weight="11"
+	>
+
+		<WebView
+			android:id="@+id/webview"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+		/>
+	</LinearLayout>
+
+</LinearLayout>

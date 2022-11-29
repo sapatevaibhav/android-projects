@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+
+    <SeekBar
+		android:id="@+id/mainSeekBar"
+        android:background="#0f0"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" 
+		android:max="2500"
+		/>
+	
+	<RatingBar
+		android:id="@+id/mainRatingBar"
+		android:numStars="6"
+		android:rating="3.5"
+		android:padding="10px"
+		android:background="#f00"
+		android:progressTint="#f0f"
+		android:progressBackgroundTint="#0ff"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:gravity="center"/>
+	
+	<ProgressBar
+		android:max="45"
+		android:progress="14"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/mainProgressBar"
+		/>
+	
+	<ProgressBar
+		android:max="10"
+		android:progress="5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/mainProgressBar2"
+		style="?android:attr/progressBarStyleHorizontal"/>
+	
+	<TextView
+		android:id="@+id/mainTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="SeekBar:0"
+		android:textSize="80px"
+		/>
+	<TextView
+		android:id="@+id/mainTextView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="RatingBar:3.5"
+		android:textSize="80px"
+		/>
+
+</LinearLayout>

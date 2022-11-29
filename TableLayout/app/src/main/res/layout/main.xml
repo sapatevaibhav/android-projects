@@ -1,0 +1,68 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+	
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/tr1"
+		android:background="@color/opaque_red">
+		
+		<TextView
+			android:id="@+id/tv1"
+			android:text="Row1"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"
+			/>
+		
+	</TableRow>>
+	
+	<TableRow
+		android:layout_width="match_parent"
+		android:layout_height="135dp"
+		android:id="@+id/tr2"
+		android:background="@color/white"
+		>
+		
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/b1"
+			android:text="Button1"
+			/>
+		
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/b2"
+			android:text="Button2"
+		/>
+	
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/b3"
+			android:text="Button3"
+		
+			/>
+		
+	</TableRow>
+	
+	<TableRow  
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:background="@color/translucent_red">
+		
+		<TextView
+			android:id="@+id/mainTextView"
+			android:text="3rd row"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			/>
+		
+	</TableRow>
+		
+
+
+</TableLayout>

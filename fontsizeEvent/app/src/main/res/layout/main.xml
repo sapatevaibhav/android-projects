@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<ScrollView
+			android:layout_width="400px"
+			android:layout_height="700px"
+			>
+    		<TextView
+        		android:text="Sapate Vaibhav"
+				android:id="@+id/mainTextView"
+        		android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</ScrollView>
+	</LinearLayout>
+	<Button
+		android:id="@+id/mainButton"
+		android:text="Click"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>

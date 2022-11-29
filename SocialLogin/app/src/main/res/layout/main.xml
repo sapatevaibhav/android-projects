@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	android:background="#FF009FC6"
+	android:orientation="vertical">
+	<ImageView
+		android:src="@drawable/twitter"
+		android:layout_width="200dp"
+		android:layout_height="200dp"/>
+    <TableLayout
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Username"
+				android:layout_weight="1"
+				android:id="@+id/t1"
+				android:textSize="75px"/>
+			<EditText
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="Enter username"
+				android:layout_weight="1"
+				android:id="@+id/username"/>
+		</TableRow>
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			
+			>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Password"
+				
+				android:layout_weight="1"
+				android:id="@+id/t2"
+				android:textSize="75px"/>
+			<EditText
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="Enter Password"
+				android:inputType="textPassword"
+				android:layout_weight="1"
+				android:id="@+id/password"/>
+		</TableRow>
+	</TableLayout>
+<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<Button
+				android:text="Sign In"
+				android:layout_width="150dp"
+				android:layout_height="65dp" 
+				android:id="@+id/b1"
+				android:layout_gravity="end"
+				/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/forg"
+			android:layout_gravity="end"
+			android:layout_below="@+id/b1"/>
+	</LinearLayout>
+</LinearLayout>

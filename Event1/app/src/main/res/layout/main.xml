@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+>
+
+    <TextView
+        android:text="Addition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:id="@+id/tv"
+		android:textSize="75px"/>
+
+	<EditText
+		android:id="@+id/Et1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="Enter surname" />
+
+	<EditText
+		android:id="@+id/Et2"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:hint="Enter middlename"/>
+
+	<EditText
+		android:id="@+id/Et3"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:hint="Enter father's name"/>
+	
+	<Button
+		android:id="@+id/b1"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Add"/>
+
+	<EditText
+		android:id="@+id/Et4"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text=""/>
+
+
+</LinearLayout>

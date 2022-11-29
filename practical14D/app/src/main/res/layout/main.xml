@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/mainScrollView1">
+
+		<TextView
+			android:textSize="70dp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="Shiv Nadar (born 14 July 1945) is an Indian billionaire industrialist and philanthropist He  is the founder and chairman of HCL and the Shiv Nadar Foundation. Nadar founded HCL in  the mid-1970s. "/>
+
+	</ScrollView>
+
+</LinearLayout>
+
